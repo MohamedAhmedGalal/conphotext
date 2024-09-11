@@ -1,0 +1,33 @@
+print (world _news[Q@].text)
+
+text=world_news[@]. text
+
+driver. quit()
+
+"SHH t+ WORDS OCCURENCE HHH”
+
+lexample_sent = text
+
+stop_words = set (stopwords .words( ‘english’ ))
+
+word_tokens = word_tokenize(example sent)
+
+filtered_sentence = [w for w in word_tokens if not te. dower () in stop_words]
+
+} Ul
+
+filtered sentence
+
+for w in word_tokens:
+if w not in stop_words:
+filtered sentence. append(w)
+
+iprint(word_ tokens)
+print(filtered_ sentence)
+
+data_set = filtered sentence
+
+def listToString(s):
+
+# initialize an empty string
+stri="°

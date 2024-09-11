@@ -1,0 +1,34 @@
+# xx=sorted(most_occur, reverse=True)
+# arr = np.array(xx)
+
+arr = np.array(most_occure)
+arr_1 = np.array(most_occure_non_stemmed)
+
+sentence=arr[:,0]
+frecvencysarr[:,1]
+
+sentence_1=arr_1f{: ,@]
+frequency _i=arr_1[:,1]
+
+# plt.xticks( rotation=45)
+# # plt.bar( sentence, frequency)
+# plt.bar(sentence, frequency, width=@.8, bottom=None)
+
+most_occur_dict=dict(most_occure)
+words = list(most_occur_dict.keys())
+frequencies = list(most_occur_dict.values()}
+
+truncate_sheet=False,
+“*to_excel_kwargs):
+
+into [sheet_name] Sheet.
+
+Parameters:
+filename : File pat o> existing ExcelWriter
+(Example: ‘/path/to/file.xlsx’)
+
+def append_df_to_excel(filename, df, sheet _name=‘Sheet1', startrow=None,
+
+Append a DataFrame [df] to existing Sos.) «t+ + Liename]
+
+If [filename] doesn't exist, then this function will create it.

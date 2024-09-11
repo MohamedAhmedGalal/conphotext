@@ -1,0 +1,53 @@
+sutnor: wsil2
+
+‘import. sys
+
+“from selenium import webdriver
+
+‘from selenium.webdriver.common.keys import Keys
+
+‘from selenium.webdriver.common.by import By
+
+‘from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected conditions as EC
+import time
+
+from selenium.webdriver.chrome.options import Options
+import numpy as np
+
+import matplotlib.pyplot as plt
+
+from nltk.corpus import stopwords
+
+from nitk.tokenize import word_tokenize
+
+from collections import Counter
+
+Fimport string
+
+from nitk.stem import PorterStemmer
+
+ffrom nitk.tokenize import word_tokenize
+
+from datetime import datetime
+
+yimport pandas as pd
+
+soptions = Options()
+
+options.add_argument(' --headless‘)
+FOoptions.add_argument(‘--disable-gpu' )
+
+'# driver = webdriver.Chrome(‘'C:\Program Files (x86) \chromedriver.exe’ ,chrome_options=options)
+driver = webdriver.Chrome( ‘C:\Program Files \Google\Chrome\Application\chromedriver.exe’ ,options=options)
+
+Piriver.get( ‘https: //www. foxnews .com/world')
+
+ebDriverWait (driver, 1008000) .until(EC.element_to_be_clickable((By.XPATH,
+
+| ‘/html/body/div[5]/div/div/h i i
+Mprint(driver.current_url) / oy OE NEN
+
+[1]/div/div{2]/nav/ul/li[1]/a'))).click()
+
+pier id_news-driver.find_elements_by_xpath(‘/html /body/div[2 | /div/div/div/div[2]/div/main*)

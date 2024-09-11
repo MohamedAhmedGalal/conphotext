@@ -1,0 +1,50 @@
+m 5S- Add above defined prefs to preferences
+ptions.add_experimental_option(‘prefs', prefs)
+
+bptions.add_argument(‘--headless°)
+
+options. add_argument (“enable- automation”)
+poptions.add_argument(“--headless”)
+
+options .add_ argument (™ --no-sandbox™)
+
+options .add_argument(“--disable-dev-shm-usage”)
+
+options .add_argument(“ --disable-browser-side-navigation")
+options.add_argument(“--disable-gpu”)
+
+# 5- specify webdriver location(https: //chromedriver.chromium.org/)
+webdriver_path=r'D:/Py programs/chromedriver.exe' #-.------------- TO EDIT
+
+# 6-create a driver object as a webdriver,using the above specified options
+# driver = webdriver.Firefox(webdriver_path)
+idrivers=i ]
+for i in range (1,9008):
+print( ‘starting new round: {}'.format(i))
+for j in range (1,3):
+y=random.randrange(1, 60@, 1)
+x=¥y¥tj
+web_url='https://youtu.be/skxSdhPuV84?t={}' . format (x)
+driver-webdriver .Chrome(webdriver_path, options=options)
+driver. get(web_url)
+z=random.randrange(@, 18, 1)
+xpath_4= “/htm1/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]/div[1]/div/div{1]/div[2]/div/div/ytd-player/div/div/div[4]/button”
+try:
+* WebDriverWait(driver, 4).until(EC.presence_of_element_located((By.XPATH, xpath 4 )))
+button = driver. find_element (By. XPATH, xpath_4)
+
+# putton = driver. find_element_by_xpath(‘/html/body/div[2]/div/div/div/div[2]/div/main/section[4]/footer/div/a')
+button. click()
+
+# WebDriverWait(driver, 4).until(EC.presence_of_element_located({By.XPATH, xpath )))
+except:
+print("Exception™)
+time.sleep(z)
+driver.refresn()
+xpath='/html/body/ytd-app/div[1]/ytd-page-manager/ytd-watch- flexy/div[S]/div(1]/div/div(2]/div[1}’
+
+xpath_2= "/htel/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div[5]" .
+xpath_3= “/htwl/body/ytd-app/div[1]/ytd-page-manager/ytd-watch-flexy/div(5]/div[1]/div/div[1]/div[2]/div/div/ytd-player/div div -div[26] div[2]/div[1]/button
+
+re —_—
+

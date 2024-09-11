@@ -1,0 +1,38 @@
+pe ETE
+
+se F return string
+return (str1.join(s))
+
+# Driver code
+data_set=(listToString(filtered_sentence))
+idata_set=data_set.translate(str.maketrans("', '", string.punctuation) )
+
+def my_stem(text, stemmer):
+
+words = text.split(” 7)
+
+stemmed words = map(stenmmer, words)
+result = " “.join(list(stemmed_words))
+return result
+
+ps = PorterStemmer()
+
+stemmed=my_stem(data_set,ps.stem)
+
+data_set_2=stemmed
+
+# split() returns list of all the words in the string
+
+split_it <= data_set_2.split()
+split_it_1 = data_set.split()
+
+# Pass the split_it list to instance of Counter class.
+Counter_1 <= Counter(split_it)
+
+Counter_2 = Counter(split_it_1)
+
+# most_common() produces k frequently encountered
+# input values and their respective counts.
+
+most_occure = Counter_1.most_common(2@)
+_occure_non_stemmed = Counter_2.most_common(20)

@@ -1,0 +1,45 @@
+acchor: mohamad.galal
+
+-~- coding: utf-8 -*-
+
+weno te
+
+Created on Thu Oct 27 10:25:42 2022
+
+@author: dell
+
+-*. coding: utf-8 -*-
+
+from selenium import webdriver
+
+import time
+
+from selenium.webdriver.chrome.options import Options
+
+from selenium.webdriver.common.by import By
+
+from selenium.webdriver.support.ui import WebDriverWait
+
+from selenium.webdriver.support import expected_conditions as EC
+import random
+
+options = Options()
+
+# Specify the webbrowser options:
+
+# 1-Create an object of options
+
+# options = Options()
+
+# # 2-initiate the Chrome Browsing Context in headless mode without opening the browser (backgrouna operation
+
+# options.add_argument(’ --headless'‘)
+# #3- set default download directory of the browser (chrome) to the desired abov i i
+
+e mentioned location ('‘d j ‘
+prefs = {'download.default_directory' : down_directory} oun_carectory’)
+
+# Poinys 4 and five are related to each others
+e # 4-disable images in chromedriver downloaded from
+
+ptions.add_experimental_option( “prefs”, {'profile.default_content_settings. images’: 2})
